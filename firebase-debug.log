@@ -1,0 +1,75 @@
+[debug] [2022-03-28T02:36:27.569Z] ----------------------------------------------------------------------
+[debug] [2022-03-28T02:36:27.571Z] Command:       /usr/local/bin/node /Users/faycalmouhouch/.nvm/versions/node/v17.6.0/bin/firebase init hosting
+[debug] [2022-03-28T02:36:27.571Z] CLI Version:   10.5.0
+[debug] [2022-03-28T02:36:27.572Z] Platform:      darwin
+[debug] [2022-03-28T02:36:27.572Z] Node Version:  v16.14.0
+[debug] [2022-03-28T02:36:27.573Z] Time:          Sun Mar 27 2022 22:36:27 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-03-28T02:36:27.573Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-28T02:36:27.620Z] Object ".hosting" in "firebase.json" has unknown property: {"additionalProperty":"firebase"}
+[debug] [2022-03-28T02:36:27.620Z] Field ".hosting" in "firebase.json" is possibly invalid: should be array
+[debug] [2022-03-28T02:36:27.620Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2022-03-28T02:36:27.626Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-28T02:36:27.626Z] > authorizing via signed-in user (faycal.mouhouch@gmail.com)
+[debug] [2022-03-28T02:36:27.627Z] Object ".hosting" in "firebase.json" has unknown property: {"additionalProperty":"firebase"}
+[debug] [2022-03-28T02:36:27.627Z] Field ".hosting" in "firebase.json" is possibly invalid: should be array
+[debug] [2022-03-28T02:36:27.627Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/faycalmouhouch/Desktop/nextjs-firebase-tailwindcss-1
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-03-28T02:36:27.631Z] Using project from CLI flag: test-18afc
+[debug] [2022-03-28T02:36:27.635Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/test-18afc [none]
+[debug] [2022-03-28T02:36:28.225Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/test-18afc 200
+[debug] [2022-03-28T02:36:28.225Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/test-18afc {"projectId":"test-18afc","projectNumber":"5288631283","displayName":"test","name":"projects/test-18afc","resources":{"hostingSite":"test-18afc"},"state":"ACTIVE"}
+[info] i  Using project test-18afc (test) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] ✔  Wrote build/404.html 
+[debug] [2022-03-28T02:36:44.006Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-03-28T02:36:44.116Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-03-28T02:36:44.117Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.6.10","browserURL":"https://www.gstatic.com/firebasejs/9.6.10/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.6.10/firebase.tgz"},"live":{"version":"9.6","browserURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.6.10/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.6.10/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.6.10/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.6.10/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore/lite.js","storage":"https://www.gstatic.com/firebasejs/9.6.10/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.6.10/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.6.10/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.6.10/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.6.10/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.6.10/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.memory.js"}}
+[info] ✔  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/faycalmouhouch/Desktop/nextjs-firebase-tailwindcss-1 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=549778660&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-03-28T02:36:44.984Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"34cde538d511c90be7ed","redirect_uri":"http://localhost:9005","state":"549778660"}
+[debug] [2022-03-28T02:36:45.424Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Mon, 28 Mar 2022 02:36:45 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"f5e9cc07a60d319f42c1b6b96190eaad\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.githubapp.com collector.github.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com collector.github.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"E643:2751:1DE95E6:316C16A:62411F3D"}
+[debug] [2022-03-28T02:36:45.441Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-03-28T02:36:45.931Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-03-28T02:36:45.931Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Faycalmh","id":98245706,"node_id":"U_kgDOBdscSg","avatar_url":"https://avatars.githubusercontent.com/u/98245706?v=4","gravatar_id":"","url":"https://api.github.com/users/Faycalmh","html_url":"https://github.com/Faycalmh","followers_url":"https://api.github.com/users/Faycalmh/followers","following_url":"https://api.github.com/users/Faycalmh/following{/other_user}","gists_url":"https://api.github.com/users/Faycalmh/gists{/gist_id}","starred_url":"https://api.github.com/users/Faycalmh/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Faycalmh/subscriptions","organizations_url":"https://api.github.com/users/Faycalmh/orgs","repos_url":"https://api.github.com/users/Faycalmh/repos","events_url":"https://api.github.com/users/Faycalmh/events{/privacy}","received_events_url":"https://api.github.com/users/Faycalmh/received_events","type":"User","site_admin":false,"name":"Fayçal Mh","company":null,"blog":"","location":"Montrèal","email":null,"hireable":true,"bio":"intr. Developer & Designer","twitter_username":null,"public_repos":17,"public_gists":0,"followers":0,"following":5,"created_at":"2022-01-23T03:05:28Z","updated_at":"2022-02-19T19:18:39Z","private_gists":0,"total_private_repos":11,"owned_private_repos":11,"disk_usage":17043,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as Faycalmh 
+[info] 
+[debug] [2022-03-28T02:37:15.869Z] >>> [apiv2][query] GET https://api.github.com/repos/faycalmh/nextjs-firebase-tailwindcss-1/actions/secrets/public-key type=owner
+[debug] [2022-03-28T02:37:16.137Z] <<< [apiv2][status] GET https://api.github.com/repos/faycalmh/nextjs-firebase-tailwindcss-1/actions/secrets/public-key 404
+[debug] [2022-03-28T02:37:16.137Z] <<< [apiv2][body] GET https://api.github.com/repos/faycalmh/nextjs-firebase-tailwindcss-1/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
